@@ -4,5 +4,5 @@
 
 - Feedback XCL
     - Le contrat est OK
-    - Commencez à coder la bataille navale
+    - Commencez à coder le mastermind
 
