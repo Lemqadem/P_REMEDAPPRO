@@ -33,10 +33,17 @@ namespace ErvLemqadem_MasterMind
         static void Menu()
         {
             Title();
-            Console.CursorTop = 7;
-            Console.WriteLine("\t\t\t\t\t       ╔════════════════════╗");
-            Console.WriteLine("\t\t\t\t\t       ║      1.JOUEUR      ║");
-            Console.WriteLine("\t\t\t\t\t       ╚════════════════════╝");
+            Console.CursorTop = 9;
+            Console.WriteLine("\t\t\t\t╔════════════════════╗");
+            Console.WriteLine("\t\t\t\t║      1.JOUER       ║");
+            Console.WriteLine("\t\t\t\t╚════════════════════╝");
+            Console.CursorTop = 9;
+            Console.WriteLine("\t\t\t\t\t\t\t\t╔════════════════════╗");
+            Console.WriteLine("\t\t\t\t\t\t\t\t║  2.REGLES DU JEU   ║");
+            Console.WriteLine("\t\t\t\t\t\t\t\t╚════════════════════╝");
+            Console.WriteLine("\n\n\n\n\t\t\t\tChoissez ce que vous voulez faire en appuyant sur 1 ou 2");
+
+  
             string UserChoice = Console.ReadLine();
 
 
