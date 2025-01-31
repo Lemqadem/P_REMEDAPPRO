@@ -1,0 +1,7 @@
+E:\Ervan Lemqadem\ETML\TRIMESTRE 3\PROG-REMEDIATION\ErvLemqadem-MasterMind\ErvLemqadem-MasterMind\bin\Debug\ErvLemqadem-MasterMind.exe.config
+E:\Ervan Lemqadem\ETML\TRIMESTRE 3\PROG-REMEDIATION\ErvLemqadem-MasterMind\ErvLemqadem-MasterMind\bin\Debug\ErvLemqadem-MasterMind.exe
+E:\Ervan Lemqadem\ETML\TRIMESTRE 3\PROG-REMEDIATION\ErvLemqadem-MasterMind\ErvLemqadem-MasterMind\bin\Debug\ErvLemqadem-MasterMind.pdb
+E:\Ervan Lemqadem\ETML\TRIMESTRE 3\PROG-REMEDIATION\ErvLemqadem-MasterMind\ErvLemqadem-MasterMind\obj\Debug\ErvLemqadem-MasterMind.csproj.AssemblyReference.cache
+E:\Ervan Lemqadem\ETML\TRIMESTRE 3\PROG-REMEDIATION\ErvLemqadem-MasterMind\ErvLemqadem-MasterMind\obj\Debug\ErvLemqadem-MasterMind.csproj.CoreCompileInputs.cache
+E:\Ervan Lemqadem\ETML\TRIMESTRE 3\PROG-REMEDIATION\ErvLemqadem-MasterMind\ErvLemqadem-MasterMind\obj\Debug\ErvLemqadem-MasterMind.exe
+E:\Ervan Lemqadem\ETML\TRIMESTRE 3\PROG-REMEDIATION\ErvLemqadem-MasterMind\ErvLemqadem-MasterMind\obj\Debug\ErvLemqadem-MasterMind.pdb
