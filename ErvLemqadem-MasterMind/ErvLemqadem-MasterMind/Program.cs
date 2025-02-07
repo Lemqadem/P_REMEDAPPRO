@@ -4,8 +4,11 @@ namespace ErvLemqadem_MasterMind
 {
     internal class Program
     {
+        static string exitBoutton;
         static void Main(string[] args)
         {
+            Console.Clear();
+                
             string UserChoice;
 
             Menu(); // Affiche le menu
@@ -19,7 +22,8 @@ namespace ErvLemqadem_MasterMind
             }
             catch
             {
-                // Optionnel : traiter les erreurs si nécessaire
+                Console.WriteLine("Choisissez une option en appuyant sur 1 ou 2 ");
+                Console.WriteLine();
             }
         }
 
@@ -34,7 +38,21 @@ namespace ErvLemqadem_MasterMind
             Console.WriteLine("Le mastermind est un jeu de société de déduction dont Le but est de deviner, par déductions successives," +
                 " la couleur et la position de la combinaison secrète 4 pions cachés en 5 essais" +
                 " Après chaque tentative, si il y a un ▲ qui s'affiche, c'est qu'une couleur est correcte et bien placée et si un ◘ s'affiche c'est que la couleur est correcte mais mal placée");
-            Console.ReadLine();
+            Console.CursorTop = 15;
+            Console.WriteLine("Appuyez sur 1 pour revenir en arrière");
+            try
+            {
+                exitBoutton = Console.ReadLine();
+                if (exitBoutton == "1")
+                {
+                    Main(null);
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Choisissez une option en appuyant sur 1 ou 2 ");
+                Console.WriteLine();
+            }
         }
 
         static void Title()
