@@ -12,4 +12,6 @@
     - Le journal de travail de la semaine passée est absent. Attention à ne pas réitérer ce genre d'oubli, cela peut avoir des conséquences.
 
 ## Journal de travail
+- ajouter l'option pour consulter les règles et mise au propre des méthodes ----->40minutes
+- 
 
