@@ -13,5 +13,5 @@
 
 ## Journal de travail
 - ajouter l'option pour consulter les règles et mise au propre des méthodes ----->40minutes
-- 
+- ajout du retour au menu après consultations des règles--->30minutes
 
