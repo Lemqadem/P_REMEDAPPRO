@@ -24,5 +24,27 @@
 
 - Journal de travail
     - correction de la structure du programme énumérée dans le dernier feedback.--->60minutes ( un peu long car j'avais oublié le fonctionnement des bool dans une boucle while)
-    - - sorti du cours à 15h30 pour Rendez-vous médical --> jusqu'a la fin du cours ---->65minutes
+    - sorti du cours à 15h30 pour Rendez-vous médical --> jusqu'a la fin du cours ---->65minutes
 
+## 28 février 2025
+
+- Feedback XCL
+    - Il n'est pas normal que la correction de la structure de votre programme vous prenne une heure. Cela aurait dû prendre au maximum 15 minutes.
+        - Soit vous n'avez pas travaillé (pas concentré ou avez fait autre chose) pendant 45 minutes et il vous faut changer d'attitude
+        - Soit vous avez eu besoin de tout ce temps pour comprendre quelque chose d'élémentaire et il va falloir travailler fort pour combler votre retard avant que vous n'abordiez des sujets plus compliqués dans les prochains cours.
+     
+    - Vos objectifs minimaux pour ce jour:
+        1. Créer aléatoirement une combinaison à trouver, sous la forme d'un tableau de 4 entiers (`int[]`)
+        2. Afficher cette combinaison dans un tableau genre:
+            ```
+            ╔═══╦═══╦═══╦═══╗  
+            ║   ║   ║   ║   ║  
+            ╚═══╩═══╩═══╩═══╝  
+            ```
+           Les couleurs à mettre dans les cases:  
+             1 = Blanc  
+             2 = Bleu  
+             3 = Rouge  
+             4 = Vert  
+             5 = Jaune  
+             6 = Noir  
