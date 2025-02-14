@@ -1,12 +1,12 @@
 # Suivi des activités
 
-## 31.1
+## 31 Janvier 2025
 
 - Feedback XCL
     - Le contrat est OK
     - Commencez à coder le mastermind
 
-## 7.2
+## 7 Février 2025
 
 - Feedback XCL
     - Le journal de travail de la semaine passée est absent. Attention à ne pas réitérer ce genre d'oubli, cela peut avoir des conséquences.
@@ -14,15 +14,15 @@
 - Journal de travail
     - ajouter l'option pour consulter les règles et mise au propre des méthodes ----->40minutes
     - ajout du retour au menu après consultations des règles--->30minutes
-    - absence pour rdv médical le restant du cours 
+    - absence pour rdv médical le restant du cours --->60minutes
 
-## 14.2
+## 14 Février 2025
 
 - Feedback XCL
     - Votre programme n'est pas bien structuré. Il ne faut pas appeler `Main()` pour revenir en arrière, il faut que votre programme tourne en boucle tant que l'utilisateur ne lui dit pas qu'il veut quitter
     - Notez vos absences dans le journal de travail, pour que l'on comprenne pourquoi le total n'est pas juste
 
 - Journal de travail
-    - ...
-
+    - correction de la structure du programme énumérée dans le dernier feedback.--->60minutes ( un peu long car j'avais oublié le fonctionnement des bool dans une boucle while)
+    - - sorti du cours à 15h30 pour Rendez-vous médical --> jusqu'a la fin du cours ---->65minutes
 
