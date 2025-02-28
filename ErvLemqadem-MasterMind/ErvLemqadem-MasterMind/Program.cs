@@ -16,6 +16,7 @@ namespace ErvLemqadem_MasterMind
             {
                 
                 string UserChoice;
+                Console.Clear();
                 Menu();// Affiche le menu
                 try
                 {
@@ -97,8 +98,13 @@ namespace ErvLemqadem_MasterMind
             Console.Clear();
             Title();
             Console.WriteLine("veuillez entrer un combinaison de 4 couleurs");
+            Console.CursorTop = 9;
+            Console.CursorLeft = 9;
             Console.WriteLine("Les couleurs à mettre dans les cases:\r\n1 = Blanc\r\n2 = Bleu\r\n3 = Rouge\r\n4 = Vert\r\n5 = Jaune\r\n6 = Noir");
-
+            Console.WriteLine("╔═══╦═══╦═══╦═══╗");
+            Console.WriteLine("║   ║   ║   ║   ║");
+            Console.WriteLine("╚═══╩═══╩═══╩═══╝");
+            
         }
     }
 }
