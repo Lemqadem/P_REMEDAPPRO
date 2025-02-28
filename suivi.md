@@ -52,4 +52,4 @@
 - Journal de travail
   -10minutes--> explications du prof etc...
   -30minutes--> rétrospective
-  -60minutes--> création de la page de jeu ( cela m'as pris énormement de temps car je rencontre un problème que je ne peux résoudre: quand je vais sur la methode Game, le menu s'efface partiellement ce qui rend incormpréhensible l'interface)
+  -60minutes--> création de la page de jeu et création du tableau color( cela m'as pris énormement de temps car je rencontre un problème que je ne peux résoudre: quand je vais sur la methode Game, le menu s'efface partiellement ce qui rend incormpréhensible l'interface)
