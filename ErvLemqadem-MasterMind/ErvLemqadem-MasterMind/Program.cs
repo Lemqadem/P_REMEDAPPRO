@@ -5,12 +5,16 @@ namespace ErvLemqadem_MasterMind
     internal class Program
     {
         static string exitBoutton;
+        static int [] colors = {1,2,3,4,5,6};
+        static int[] combination;
+
+
         static void Main(string[] args)
         {
             bool run = true;
             while (run)
             {
-                Console.Clear();
+                
                 string UserChoice;
                 Menu();// Affiche le menu
                 try
@@ -62,6 +66,7 @@ namespace ErvLemqadem_MasterMind
             {
                 Console.WriteLine("Erreur, choisissez une option valide.");
             }
+            
         }
 
         static void Title()
@@ -85,10 +90,14 @@ namespace ErvLemqadem_MasterMind
             Console.WriteLine("\t\t\t\t\t\t\t\t║  2.REGLES DU JEU   ║");
             Console.WriteLine("\t\t\t\t\t\t\t\t╚════════════════════╝");
             Console.WriteLine("\n\n\n\n\t\t\t\t    Choisissez une option en appuyant sur 1, 2.");
+           
         }
         static void Game()
         {
+            Console.Clear();
             Title();
+            Console.WriteLine("veuillez entrer un combinaison de 4 couleurs");
+            Console.WriteLine("Les couleurs à mettre dans les cases:\r\n1 = Blanc\r\n2 = Bleu\r\n3 = Rouge\r\n4 = Vert\r\n5 = Jaune\r\n6 = Noir");
 
         }
     }
