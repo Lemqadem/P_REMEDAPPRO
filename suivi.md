@@ -50,8 +50,19 @@
              6 = Noir  
 
 - Journal de travail
-  -10minutes--> explications du prof etc...
-  -30minutes--> rétrospective
-  -60minutes--> création de la page de jeu et création du tableau color( cela m'as pris énormement de temps car je rencontre un problème que je ne peux résoudre: quand je vais sur la methode Game, le menu s'efface partiellement ce qui rend incormpréhensible l'interface)
-- -15minutes--> M.Carrel est venu m'aider pour comprendre pourquoi mon code avait le comportement cité plus haut.
-- 15minutes--> je me suis renseigné sur la création de combinaison aleatoire sur c#
+
+  - 10minutes--> explications du prof etc...  
+  - 30minutes--> rétrospective  
+  - 60minutes--> création de la page de jeu et création du tableau color( cela m'as pris énormement de temps car je rencontre un problème que je ne peux résoudre: quand je vais sur la methode Game, le menu s'efface partiellement ce qui rend incormpréhensible l'interface)  
+  - 15minutes--> M.Carrel est venu m'aider pour comprendre pourquoi mon code avait le comportement cité plus haut.
+  - 15minutes--> je me suis renseigné sur la création de combinaison aleatoire sur c#
+
+
+## 7.3
+
+- Feedback XCL
+    - Quel a été le résultat de la retrospective ? cela doit être visible dans votre jdt
+    - Ce n'est qu'en allant regarder dans votre repo que j'ai fini par comprendre.
+    - Le document retrospective est bien. Dommage: ce n'est pas sous cette forme que je vous demandais de me le transmettre
+
+- Journal de travail
