@@ -68,5 +68,9 @@
 - Journal de travail
 
 - 15min--->théorie de M.Carrel
-- 15minutes---->retrospective correction
-- 15minutes--> continuer de me renseigner sur les suites aleatoire c#
+- 20minutes---->retrospective correction
+- 25minutes--> continuer de me renseigner sur les suites aleatoire c#
+- 30minutes----> ajout d'un nombre maximum de tentatives (10)
+- 20minutes---->optmisation d'interface de jeu
+- 30minutes---->ajout de commentaires
+- 15minutes----> conseils d'un collègue quant au focntionnement de l'algorythme
