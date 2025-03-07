@@ -66,3 +66,7 @@
     - Le document retrospective est bien. Dommage: ce n'est pas sous cette forme que je vous demandais de me le transmettre
 
 - Journal de travail
+
+- 15min--->théorie de M.Carrel
+- 15minutes---->retrospective correction
+- 15minutes--> continuer de me renseigner sur les suites aleatoire c#
