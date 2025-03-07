@@ -2,7 +2,7 @@
 
 | # | Enoncé | Status |
 |---|---|---|
-|1|(objectif 1)|(status 1)|
-|2|||
-|3|||
-|4|||
+|1|En faisant un programme dont le code source est parfaitement aux normes de codage ETMl|atteint|
+|2|En ayant un code contenant au moins 3 méthodes |atteint|
+|3|Les réponses du programme sont correctes par rapport à la combinaison proposée|non-atteint|
+|4|En détectant correctement la fin de la partie |non-atteint|
