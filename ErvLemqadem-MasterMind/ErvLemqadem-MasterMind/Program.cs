@@ -52,7 +52,7 @@ namespace ErvLemqadem_MasterMind
             Console.CursorTop = 9;//placement 
             Console.WriteLine("Le mastermind est un jeu de société de déduction dont Le but est de deviner, par déductions successives," +
                 " la couleur et la position de la combinaison secrète 4 pions cachés en 5 essais." +
-                " Après chaque tentative, si un ▲ s'affiche, c'est qu'une couleur est correcte et bien placée, et si un ◘ s'affiche, c'est que la couleur est correcte mais mal placée.");
+                " Après chaque tentative, il sera affiché si des couleurs sont bien placés ou si elles sont mal placé mais correctes");
             Console.CursorTop = 15;
             Console.WriteLine("Appuyez sur 1 pour revenir au menu principal");
 

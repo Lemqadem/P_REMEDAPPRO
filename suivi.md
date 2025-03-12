@@ -74,3 +74,11 @@
 - 20minutes---->optmisation d'interface de jeu
 - 30minutes---->ajout de commentaires
 - 15minutes----> conseils d'un collègue quant au focntionnement de l'algorythme
+
+
+## 12.3
+- Journal de travail
+
+- 5minutes--> modifications du texte des règles du jeu
+- 
+
