@@ -6,7 +6,7 @@ namespace ErvLemqadem_MasterMind
     {
         static string exitBoutton;
         static int[] colors = { 1, 2, 3, 4, 5, 6 };//couleurs
-        static int[] combination;//combinaison de couleurs
+        static int[] combination = new int[4];//combinaison de couleurs
         static int attempts = 10; // Nombre d'essais
 
 
@@ -104,20 +104,33 @@ namespace ErvLemqadem_MasterMind
                 combination[i] = rand.Next(1, 7);
             }
 
+
             Console.WriteLine("Vous avez 10 essais pour deviner la combinaison secrète !");
             Console.WriteLine("Les couleurs à mettre dans les cases :");
             Console.WriteLine("1 = Blanc | 2 = Bleu | 3 = Rouge | 4 = Vert | 5 = Jaune | 6 = Noir");
             Console.WriteLine("╔═══╦═══╦═══╦═══╗");
             Console.WriteLine("║   ║   ║   ║   ║");
             Console.WriteLine("╚═══╩═══╩═══╩═══╝");
-            for (int i = 0; i < attempts; i++)
+            for (int attempt = 1; attempt < attempts; attempt++)// boucle qui va executer les 10 essai
             {
-                Console.WriteLine($"\nEssai {i + 1}/{attempts} :");
-                Console.WriteLine("Veuillez entrer une combinaison de 4 couleurs (séparées par des espaces) :");
+                Console.WriteLine($"\nEssai {attempt}/{attempts} : Veuillez entrer une combinaison de 4 chiffres (séparés par des espaces) :");
                 Console.WriteLine("╔═══╦═══╦═══╦═══╗");
                 Console.WriteLine("║   ║   ║   ║   ║");
                 Console.WriteLine("╚═══╩═══╩═══╩═══╝");
-                Console.ReadLine();
+
+                string input = Console.ReadLine();
+
+                if (input.Split().Length != 4 || !input.Split().All(s => int.TryParse(s, out int j) && j >= 1 && j <= 6))
+                {
+                    Console.WriteLine("Entrée invalide. Entrez 4 chiffres entre 1 et 6.");
+                    attempt--;
+                    continue;
+                }
+
+                int[] guess = input.Split().Select(int.Parse).ToArray();
+                Console.WriteLine("╔═══╦═══╦═══╦═══╗");
+                Console.WriteLine($"║ {guess[0]} ║ {guess[1]} ║ {guess[2]} ║ {guess[3]} ║");
+                Console.WriteLine("╚═══╩═══╩═══╩═══╝");
 
             }
         }

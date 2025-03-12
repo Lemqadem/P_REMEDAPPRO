@@ -81,4 +81,4 @@
 
 - 5minutes--> modifications du texte des règles du jeu
 - 25minutes-->création du system de génération aleatoie de suite de nombre qui se stock dans une variable tableau
-
+-65minutes--> création d'une boucle permettant de saisir 4chiffres pour 10 essai et en verifiant a chaque fois que la combinaison est valide ( j'ai pris enormement de temps pour faire cela car j'ai pris du temps a comprendre comment cela fonctionnait en regardant notamment des videos youtube tuto en paralelle)
