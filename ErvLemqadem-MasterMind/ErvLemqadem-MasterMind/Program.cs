@@ -98,6 +98,12 @@ namespace ErvLemqadem_MasterMind
         {
             Console.Clear();
             Title();
+            Random rand = new Random();// génére des nombres aleatoires
+            for (int i = 0; i < 4; i++)// boucle qui va remplir chaque case du tableau combinaison avec une valeur aleatoire
+            {
+                combination[i] = rand.Next(1, 7);
+            }
+
             Console.WriteLine("Vous avez 10 essais pour deviner la combinaison secrète !");
             Console.WriteLine("Les couleurs à mettre dans les cases :");
             Console.WriteLine("1 = Blanc | 2 = Bleu | 3 = Rouge | 4 = Vert | 5 = Jaune | 6 = Noir");
