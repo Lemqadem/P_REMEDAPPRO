@@ -80,5 +80,5 @@
 - Journal de travail
 
 - 5minutes--> modifications du texte des règles du jeu
-- 
+- 25minutes-->création du system de génération aleatoie de suite de nombre qui se stock dans une variable tableau
 
