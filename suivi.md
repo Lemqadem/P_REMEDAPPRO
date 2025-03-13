@@ -85,4 +85,5 @@
 
 ## 12.3
 - Journal de travail
-- 60 minutes--> correction de mon code car dans le code que j'ai fait hier, il restait des erreurs, j'ai donc corrigé et simplifié le code ( cela m'a pris beaucoup de temps car j'ai peiné a comprendre comment rendre le code plus simpl et corriger l'erreur)
+- 55 minutes--> correction de mon code car dans le code que j'ai fait hier, il restait des erreurs, j'ai donc corrigé et simplifié le code ( cela m'a pris beaucoup de temps car j'ai peiné a comprendre comment rendre le code plus simpl et corriger l'erreur)
+- 15minutes---> ajout de commentaires

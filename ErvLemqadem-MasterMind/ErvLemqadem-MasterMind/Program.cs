@@ -56,7 +56,7 @@ namespace ErvLemqadem_MasterMind
             Console.CursorTop = 15;
             Console.WriteLine("Appuyez sur 1 pour revenir au menu principal");
 
-            try
+            try//boucle permettant de faire en sorte que si l'utilisateur entre "1", cela fait un retour vers l'ecran d'acceuil ( menu)
             {
                 exitBoutton = Console.ReadLine();
                 if (exitBoutton == "1")
@@ -64,13 +64,15 @@ namespace ErvLemqadem_MasterMind
                     return;
                 }
             }
-            catch
+            catch// si l'utiisateur entre qqch d'autres, cela affiche un message d'erreur
             {
                 Console.WriteLine("Erreur, choisissez une option valide.");
             }
 
         }
-
+        /// <summary>
+        /// methode qui affiche le titre
+        /// </summary>
         static void Title()
         {
             Console.WriteLine("\t\t\t\t\t╔═══════════════════════════════════╗");
@@ -79,7 +81,9 @@ namespace ErvLemqadem_MasterMind
             Console.WriteLine("\t\t\t\t\t╚═══════════════════════════════════╝");
             Console.WriteLine("");
         }
-
+        /// <summary>
+        /// methode qui affiche l'écran du menu
+        /// </summary>
         static void Menu()
         {
             Title();
@@ -112,16 +116,16 @@ namespace ErvLemqadem_MasterMind
             Console.WriteLine("║   ║   ║   ║   ║");
             Console.WriteLine("╚═══╩═══╩═══╩═══╝");
 
-            for (int attempt = 1; attempt < 10; attempt++) // boucle pour les 10 essais
+            for (int attempt = 1; attempt <= 10; attempt++) // boucle pour les 10 essais
             {
                 Console.WriteLine($"\nEssai {attempt}/10 : Veuillez entrer une combinaison de 4 chiffres (séparés par des espaces) :");
                 Console.WriteLine("╔═══╦═══╦═══╦═══╗");
                 Console.WriteLine("║   ║   ║   ║   ║");
                 Console.WriteLine("╚═══╩═══╩═══╩═══╝");
 
-                string input = Console.ReadLine();
-                string[] parts = input.Split();
-                int[] guess = new int[4];
+                string input = Console.ReadLine();//variable qui stock l'entré de l'utilisateur
+                string[] parts = input.Split();//
+                int[] guess = new int[4];//variable stockant 
 
                 // Vérification de l'entrée
                 if (parts.Length != 4)
@@ -131,8 +135,8 @@ namespace ErvLemqadem_MasterMind
                     continue;
                 }
 
-                bool valid = true;
-                for (int i = 0; i < 4; i++)
+                bool valid = true;//variable qui détérmine si la valeur entré par l'utilisateur est valide ou non
+                for (int i = 0; i < 4; i++)//boucle determinant si la combinaison est valide ou non
                 {
                     if (int.TryParse(parts[i], out int num) && num >= 1 && num <= 6)
                     {
@@ -145,7 +149,7 @@ namespace ErvLemqadem_MasterMind
                     }
                 }
 
-                if (!valid)
+                if (!valid)//si la combinaison n'est pas correcte, afficher un message d'erreur
                 {
                     Console.WriteLine("Entrée invalide. Entrez 4 chiffres entre 1 et 6.");
                     attempt--; // Ne pas compter cet essai
