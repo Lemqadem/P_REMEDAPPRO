@@ -111,29 +111,57 @@ namespace ErvLemqadem_MasterMind
             Console.WriteLine("╔═══╦═══╦═══╦═══╗");
             Console.WriteLine("║   ║   ║   ║   ║");
             Console.WriteLine("╚═══╩═══╩═══╩═══╝");
-            for (int attempt = 1; attempt < attempts; attempt++)// boucle qui va executer les 10 essai
+
+            for (int attempt = 1; attempt < 10; attempt++) // boucle pour les 10 essais
             {
-                Console.WriteLine($"\nEssai {attempt}/{attempts} : Veuillez entrer une combinaison de 4 chiffres (séparés par des espaces) :");
+                Console.WriteLine($"\nEssai {attempt}/10 : Veuillez entrer une combinaison de 4 chiffres (séparés par des espaces) :");
                 Console.WriteLine("╔═══╦═══╦═══╦═══╗");
                 Console.WriteLine("║   ║   ║   ║   ║");
                 Console.WriteLine("╚═══╩═══╩═══╩═══╝");
 
                 string input = Console.ReadLine();
+                string[] parts = input.Split();
+                int[] guess = new int[4];
 
-                if (input.Split().Length != 4 || !input.Split().All(s => int.TryParse(s, out int j) && j >= 1 && j <= 6))
+                // Vérification de l'entrée
+                if (parts.Length != 4)
                 {
                     Console.WriteLine("Entrée invalide. Entrez 4 chiffres entre 1 et 6.");
-                    attempt--;
+                    attempt--; // Ne pas compter cet essai
                     continue;
                 }
 
-                int[] guess = input.Split().Select(int.Parse).ToArray();
+                bool valid = true;
+                for (int i = 0; i < 4; i++)
+                {
+                    if (int.TryParse(parts[i], out int num) && num >= 1 && num <= 6)
+                    {
+                        guess[i] = num;
+                    }
+                    else
+                    {
+                        valid = false;
+                        break;
+                    }
+                }
+
+                if (!valid)
+                {
+                    Console.WriteLine("Entrée invalide. Entrez 4 chiffres entre 1 et 6.");
+                    attempt--; // Ne pas compter cet essai
+                    continue;
+                }
+
+                // Affichage de la combinaison saisie
                 Console.WriteLine("╔═══╦═══╦═══╦═══╗");
                 Console.WriteLine($"║ {guess[0]} ║ {guess[1]} ║ {guess[2]} ║ {guess[3]} ║");
                 Console.WriteLine("╚═══╩═══╩═══╩═══╝");
-
             }
         }
     }
 }
+
+
+
+
 
