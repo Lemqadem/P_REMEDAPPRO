@@ -5,18 +5,17 @@ namespace ErvLemqadem_MasterMind
     internal class Program
     {
         static string exitBoutton;//variable pour bouton exit
-        static int[] colors = { 1, 2, 3, 4, 5, 6 };//couleurs
         static int[] combination = new int[4];//combinaison de couleurs
         static int attempts = 10; // Nombre d'essais
 
 
         static void Main(string[] args)
         {
-            bool run = true;
-            while (run)
+            bool run = true;//variable 
+            while (run)// boucle qui va se stopper si l'entrée de l'utilisateur n'est pas valide
             {
-                string UserChoice;
-                Console.Clear();
+                string UserChoice;//variable qui stocke l'entrée de l'utilisateur pour consulter les règles du jeu ou pour jouer directement 
+                Console.Clear();// effacer la console
                 Menu(); // Affiche le menu
                 try
                 {
@@ -50,9 +49,9 @@ namespace ErvLemqadem_MasterMind
             Console.WriteLine("\t\t\t\t\t║           MASTERMIND              ║");//
             Console.WriteLine("\t\t\t\t\t╚═══════════════════════════════════╝");//
             Console.CursorTop = 9;//placement 
-            Console.WriteLine("Le mastermind est un jeu de société de déduction dont Le but est de deviner, par déductions successives," +
-                " la couleur et la position de la combinaison secrète 4 pions cachés en 10 essais." +
-                " Après chaque tentative, il sera affiché si des couleurs sont bien placés ou si elles sont mal placé mais correctes");
+            Console.WriteLine("Le mastermind est un jeu de société de déduction dont Le but est de deviner, par déductions successives," +//
+                " la couleur et la position de la combinaison secrète 4 pions cachés en 10 essais." +                                     //règles du jeu
+                " Après chaque tentative, il sera affiché si des couleurs sont bien placés ou si elles sont mal placé mais correctes");   //
             Console.CursorTop = 15;
             Console.WriteLine("Appuyez sur 1 pour revenir au menu principal");
 
@@ -193,11 +192,37 @@ namespace ErvLemqadem_MasterMind
                         }
                     }
                 }
+                Console.WriteLine($"Résultat : {correctPosition}  correctes et bien placés, {correctNumber}  correctes et mal placés.");//affichage du nombres de chiffres justes et bien placé et le nombre de chiffres correctes mais mal placé
+
+                if (correctPosition == 4)//si la combinaison complète est trouvée
+                {
+                    Console.WriteLine("Félicitations ! Vous avez trouvé la combinaison secrète !");// affichage du message de reussite
+                    return;
+                }
 
             }
+            Console.WriteLine($"Désolé, vous avez épuisé tous vos essais. La combinaison secrète était : {string.Join(" ", combination)}");//quand les 10 essai passés, afficher solution combinaison
+            Console.WriteLine();
+            Console.WriteLine("LE JEU EST TERMINE ---> tapez 1 si vous voulez recommencer, tapez une touche quelconque pour quitter le jeu");//affichage de la fin du jeu + proposition de rejouer
+            string restartBoutton = Console.ReadLine();//variable qui stocke l'entrée de l'utilisateur pour rejouer ou quitter le jeu
+
+
+            if (restartBoutton == "1") // Si l'utilisateur appuie sur "1", cela le renvoie à la méthode qui héberge le jeu
+            {
+                Menu();//redirection vers la methode de jeu 
+            }
+            else//si l'utilisateur clique sur une autre touche--> quitter le jeu
+            {
+                Environment.Exit(0);
+            }
+
+
+
         }
     }
 }
+
+
 
 
 

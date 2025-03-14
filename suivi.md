@@ -90,3 +90,4 @@
 ## 14.3
 -journal de travai
 -65minutes--> création du mechanisme de verification de combinaison, si il y a des chiffres justes et bien placé ou des chiffres justes mais mal placé+ ajout et mise au propre des commentaires 
+30minutes--->affichage de la combinaison secrete quand les 10 essai sont écoulé + propisition de rejouer ou de quitter + mise au propre du code en enlevant les variables inutilisés et en ajoutant des commentaires
