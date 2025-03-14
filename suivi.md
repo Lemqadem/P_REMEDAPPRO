@@ -83,6 +83,6 @@
 - 25minutes-->création du system de génération aleatoie de suite de nombre qui se stock dans une variable tableau
 -65minutes--> création d'une boucle permettant de saisir 4chiffres pour 10 essai et en verifiant a chaque fois que la combinaison est valide ( j'ai pris enormement de temps pour faire cela car j'ai pris du temps a comprendre comment cela fonctionnait en regardant notamment des videos youtube tuto en paralelle)
 
-## 12.3
+## 13.3
 - Journal de travail
 - 60 minutes--> correction de mon code car dans le code que j'ai fait hier, il restait des erreurs, j'ai donc corrigé et simplifié le code ( cela m'a pris beaucoup de temps car j'ai peiné a comprendre comment rendre le code plus simpl et corriger l'erreur)
