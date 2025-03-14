@@ -86,3 +86,7 @@
 ## 13.3
 - Journal de travail
 - 60 minutes--> correction de mon code car dans le code que j'ai fait hier, il restait des erreurs, j'ai donc corrigé et simplifié le code ( cela m'a pris beaucoup de temps car j'ai peiné a comprendre comment rendre le code plus simpl et corriger l'erreur)
+
+## 14.3
+-journal de travai
+-65minutes--> création du mechanisme de verification de combinaison, si il y a des chiffres justes et bien placé ou des chiffres justes mais mal placé+ ajout et mise au propre des commentaires 
