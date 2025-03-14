@@ -203,24 +203,25 @@ namespace ErvLemqadem_MasterMind
 
                 if (correctPosition == 4)//si la combinaison complète est trouvée
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Félicitations ! Vous avez trouvé la combinaison secrète !");// affichage du message de reussite
-                    string restartBouttonWin = Console.ReadLine();//variable qui stocke l'entrée de l'utilisateur pour rejouer ou quitter le jeu
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("LE JEU EST TERMINE ---> tapez sur n'importe quelle touche pour quitter le jeu");//affichage de la fin du jeu + proposition de rejouer
+                    Console.ResetColor();
+                    Console.ReadLine();
+                    Environment.Exit(0);
 
-
-                    if (restartBouttonWin == "1") // Si l'utilisateur appuie sur "1", cela le renvoie à la méthode qui héberge le jeu
-                    {
-                        Menu();//redirection vers la methode de jeu 
-                    }
-                    else//si l'utilisateur clique sur une autre touche--> quitter le jeu
-                    {
-                        Environment.Exit(0);
-                    }
+                    
+                    
                 }
 
             }
-            Console.WriteLine($"Désolé, vous avez épuisé tous vos essais. La combinaison secrète était : {string.Join(" ", combination)}");//quand les 10 essai passés, afficher solution combinaison
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"\nDésolé, vous avez épuisé tous vos essais. La combinaison secrète était : {string.Join(" ", combination)}");//quand les 10 essai passés, afficher solution combinaison
             Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("LE JEU EST TERMINE ---> tapez 1 si vous voulez retourner au menu, tapez une touche quelconque pour quitter le jeu");//affichage de la fin du jeu + proposition de rejouer
+            Console.ResetColor();
             string restartBoutton = Console.ReadLine();//variable qui stocke l'entrée de l'utilisateur pour rejouer ou quitter le jeu
 
 

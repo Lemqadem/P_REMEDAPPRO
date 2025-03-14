@@ -119,3 +119,4 @@
 - 30 minutes-->ajout de la posibilité de rejouer après la victoire
 - 15minutes--> test du programme par des collègue afin d'avoir un avis supplémentaire
 - 10inutes--> discussion avec m.carrel par rapport au feedback
+- 30 minutes---> test du code + ajout de texte a la victoire comme à la défaite
