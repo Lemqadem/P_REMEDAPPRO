@@ -113,5 +113,6 @@
 
     ```
 
-- Journal de travail
-    -
+- Journal de travail 
+- 10minutes-->discours professeur
+- 10minutes-->j'ai du résoudre les conflit sur le programme comme sur le jdt qui s'est chargé a moitié
