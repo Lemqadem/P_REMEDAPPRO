@@ -116,3 +116,6 @@
 - Journal de travail 
 - 10minutes-->discours professeur
 - 10minutes-->j'ai du résoudre les conflit sur le programme comme sur le jdt qui s'est chargé a moitié
+- 30 minutes-->ajout de la posibilité de rejouer après la victoire
+- 15minutes--> test du programme par des collègue afin d'avoir un avis supplémentaire
+- 10inutes--> discussion avec m.carrel par rapport au feedback
