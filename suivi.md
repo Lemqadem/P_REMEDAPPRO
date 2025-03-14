@@ -91,3 +91,25 @@
 -journal de travai
 -65minutes--> création du mechanisme de verification de combinaison, si il y a des chiffres justes et bien placé ou des chiffres justes mais mal placé+ ajout et mise au propre des commentaires 
 30minutes--->affichage de la combinaison secrete quand les 10 essai sont écoulé + propisition de rejouer ou de quitter + mise au propre du code en enlevant les variables inutilisés et en ajoutant des commentaires
+
+
+## 14.3
+
+- Feedback XCL
+    - Commits: le nom ne devrait pas dépasser 50 caractères. C'est bien de vouloir en mettre plus, mais il vous faut alors le faire dans la description (pas dans le nom)
+    - Journal: très bien!
+    - Le programme est bien, je ne comprends pas pourquoi vous ne marquez pas vos objectifs 3 et 4 comme atteints
+    - Le jeu n'est pas très "user friendly". Vous pouvez l'améliorer, par exemple en créant et en utilisant une fonction supplémentaire:
+    ```csharp
+            // Retourne un chiffre entre 1 et 6 tapé pr l'utilisateur au clavier, sans rien afficher à l'écran
+        static int GetNumber()
+        {
+            int res = 0;
+            // ...
+            return res;
+        }
+
+    ```
+
+- Journal de travail
+    -
