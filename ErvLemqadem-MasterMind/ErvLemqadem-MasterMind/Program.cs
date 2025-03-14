@@ -55,11 +55,9 @@ namespace ErvLemqadem_MasterMind
             Console.CursorTop = 15;
             Console.WriteLine("Appuyez sur 1 pour revenir au menu principal");
 
-<<<<<<< HEAD
-            try//boucle permettant de faire en sorte que si l'utilisateur entre "1", cela fait un retour vers l'ecran d'acceuil ( menu)
-=======
+
             try//si l'utilisateur entre 1-> le faire retourner au menu
->>>>>>> 7e407e659173d01dca7ac870e7ceea9e3e4438d0
+
             {
                 exitBoutton = Console.ReadLine();
                 if (exitBoutton == "1")
@@ -67,11 +65,9 @@ namespace ErvLemqadem_MasterMind
                     return;
                 }
             }
-<<<<<<< HEAD
-            catch// si l'utiisateur entre qqch d'autres, cela affiche un message d'erreur
-=======
+
             catch//si on entre qqch d'autres--> message erreur
->>>>>>> 7e407e659173d01dca7ac870e7ceea9e3e4438d0
+
             {
                 Console.WriteLine("Erreur, choisissez une option valide.");
 
@@ -79,11 +75,7 @@ namespace ErvLemqadem_MasterMind
 
         }
         /// <summary>
-<<<<<<< HEAD
-        /// methode qui affiche le titre
-=======
         /// méthode qui affiche le titre
->>>>>>> 7e407e659173d01dca7ac870e7ceea9e3e4438d0
         /// </summary>
         static void Title()
         {
@@ -94,11 +86,7 @@ namespace ErvLemqadem_MasterMind
             Console.WriteLine("");
         }
         /// <summary>
-<<<<<<< HEAD
-        /// methode qui affiche l'écran du menu
-=======
         /// méthode contenant l'inteface graphique du menu
->>>>>>> 7e407e659173d01dca7ac870e7ceea9e3e4438d0
         /// </summary>
         static void Menu()
         {
@@ -133,21 +121,10 @@ namespace ErvLemqadem_MasterMind
             Console.WriteLine("Les couleurs à mettre dans les cases :");
             Console.WriteLine("1 = Blanc | 2 = Bleu | 3 = Rouge | 4 = Vert | 5 = Jaune | 6 = Noir");
 
-<<<<<<< HEAD
-            for (int attempt = 1; attempt <= 10; attempt++) // boucle pour les 10 essais
-=======
 
             for (int attempt = 1; attempt <= attempts; attempt++) // boucle qui compte les 10 essais
->>>>>>> 7e407e659173d01dca7ac870e7ceea9e3e4438d0
             {
                 Console.WriteLine($"\nEssai {attempt}/10 : Veuillez entrer une combinaison de 4 chiffres (séparés par des espaces) :");
-
-<<<<<<< HEAD
-                string input = Console.ReadLine();//variable qui stock l'entré de l'utilisateur
-                string[] parts = input.Split();//
-                int[] guess = new int[4];//variable stockant 
-=======
->>>>>>> 7e407e659173d01dca7ac870e7ceea9e3e4438d0
 
                 string input = Console.ReadLine();//entrée de l'utilisateur
                 string[] parts = input.Split();//variable qui va stocker sous forme de texte l'entrée de lutilisateur
@@ -161,13 +138,10 @@ namespace ErvLemqadem_MasterMind
                     continue;
                 }
 
-<<<<<<< HEAD
-                bool valid = true;//variable qui détérmine si la valeur entré par l'utilisateur est valide ou non
-                for (int i = 0; i < 4; i++)//boucle determinant si la combinaison est valide ou non
-=======
+
                 bool valid = true;
                 for (int i = 0; i < 4; i++)//boucle qui va verifier que l'entrée est entre 1 et 6
->>>>>>> 7e407e659173d01dca7ac870e7ceea9e3e4438d0
+
                 {
                     if (int.TryParse(parts[i], out int num) && num >= 1 && num <= 6)
                     {
@@ -180,11 +154,9 @@ namespace ErvLemqadem_MasterMind
                     }
                 }
 
-<<<<<<< HEAD
-                if (!valid)//si la combinaison n'est pas correcte, afficher un message d'erreur
-=======
+
                 if (!valid)// si l'entrée de l'utilisateur n'est pas composé de nombrs en 1 et 6--> afficher un message d'erreur et ne pas compter l'essai
->>>>>>> 7e407e659173d01dca7ac870e7ceea9e3e4438d0
+
                 {
                     Console.WriteLine("Entrée invalide. Entrez 4 chiffres entre 1 et 6.");
                     attempt--; // Ne pas compter cet essai
