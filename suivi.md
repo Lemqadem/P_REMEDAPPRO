@@ -127,4 +127,6 @@ Vos objectifs ont été atteints, votre journal de travail est satisfaisant. Le 
 
 Je vous suggère fortement toutefois de ne pas relâcher vos efforts car le programme que vous avez fourni départ d'une très grande qualité technique.
 
+D'autre part, je constate que vous avez fait un effort au niveau du nommage commits. Il reste néanmoins quelques progrès à faire en suivant la syntaxe demandée avec les parenthèses et les deuxpoints. En d'autres termes: "feat (program): Ajout de la posibilité de rejouer après la victoire" au lieu de "feat program ajout de la posibilité de rejouer après la victoir.
+
 Comme discuté en classe, la saisie des données n'est pas très "user friendly". Cela a été dicté par un choix technique qui simplifie l'écriture du code au détriment de l'expérience de l'utilisateur. Il est important d'arriver à inverser cet approche : on doit d'abord penser aux besoins de l'utilisateur et ensuite trouver les moyens techniques pour les satisfaire. C'est cette étape qu'il faut que vous arriviez à franchir en améliorant vos compétences techniques.
