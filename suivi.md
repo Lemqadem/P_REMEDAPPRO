@@ -114,9 +114,17 @@
     ```
 
 - Journal de travail 
-- 10minutes-->discours professeur
-- 10minutes-->j'ai du résoudre les conflit sur le programme comme sur le jdt qui s'est chargé a moitié
-- 30 minutes-->ajout de la posibilité de rejouer après la victoire
-- 15minutes--> test du programme par des collègue afin d'avoir un avis supplémentaire
-- 10inutes--> discussion avec m.carrel par rapport au feedback
-- 30 minutes---> test du code + ajout de texte a la victoire comme à la défaite
+    - 10minutes-->discours professeur
+    - 10minutes-->j'ai du résoudre les conflit sur le programme comme sur le jdt qui s'est chargé a moitié
+    - 30 minutes-->ajout de la posibilité de rejouer après la victoire
+    - 15minutes--> test du programme par des collègue afin d'avoir un avis supplémentaire
+    - 10inutes--> discussion avec m.carrel par rapport au feedback
+    - 30 minutes---> test du code + ajout de texte a la victoire comme à la défaite
+ 
+# Conclusion
+
+Vos objectifs ont été atteints, votre journal de travail est satisfaisant. Le projet est donc validé.
+
+Je vous suggère fortement toutefois de ne pas relâcher vos efforts car le programme que vous avez fourni départ d'une très grande qualité technique.
+
+Comme discuté en classe, la saisie des données n'est pas très "user friendly". Cela a été dicté par un choix technique qui simplifie l'écriture du code au détriment de l'expérience de l'utilisateur. Il est important d'arriver à inverser cet approche : on doit d'abord penser aux besoins de l'utilisateur et ensuite trouver les moyens techniques pour les satisfaire. C'est cette étape qu'il faut que vous arriviez à franchir en améliorant vos compétences techniques.
